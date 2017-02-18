@@ -71,7 +71,7 @@ func Abbreviate(phrase string) string {
 		}
 	}
 
-	// At this point, our acronym is a slice containing runes. We need to remove
+	// At this point, our acronym is a slice containing strings. We need to remove
 	// the quotes and turn that slice into a string.
 	return RemoveDoubleQuotesAndJoin(acronym)
 }
